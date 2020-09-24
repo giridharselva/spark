@@ -4,4 +4,4 @@ val counts = textFile.flatMap(line => line.split(" "))
                  .reduceByKey(_ + _)
 counts.saveAsTextFile("hdfs://...")
 
-al textFile = sc.textFile("hdfs://...")
+valal textFile = sc.textFile("hdfs://...")
