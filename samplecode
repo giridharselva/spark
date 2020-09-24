@@ -5,3 +5,4 @@ val counts = textFile.flatMap(line => line.split(" "))
 counts.saveAsTextFile("hdfs://...")
 
 valal textFile = sc.textFile("hdfs://...")
+setup
